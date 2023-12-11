@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Personal Portfolio" />
+    <meta name="author" content="Rupayan Dey" />
+    <meta name="keywords" content="HTML , CSS , JavaScript , Rupayan Dey , Personal Portfolio , Website" />
+    <title>My Personal Portfolio Website</title>
+    <link rel="shortcut icon" href="images/fav-icon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script defer src="index.js"></script>
+  </head>
+
+  <!-- !============================body starts =========================================== -->
+
+
+  <body>
+    <!-- * ================================================= 
+        * Header Section Starts
+* =================================================== -->
+
+    <header id="d_l_header" class="header">
+      <img loading="lazy" class="logo"  src="images/logo.png" alt="Our Logo" />
+
+      <nav class="navbar">
+        <ul class="navbarLists">
+          <li>
+            <a id="nav_1" href="index.html" class="navbarLink homeLink">Home</a>
+          </li>
+          <li>
+            <a id="nav_2" href="about.html" class="navbarLink aboutLink">About</a>
+          </li>
+          <li>
+            <a id="nav_3" href="service.html" class="navbarLink servicesLink">Services</a>
+          </li>
+          <li>
+            <a id="nav_4" href="#" class="navbarLink portfolioLink"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a id="nav_5" href="contact.html" class="navbarLink contactLink">Contact</a>
+          </li>
+          <li>
+            <a id="darkLink" href="#" class="navbarLink contactLink">Dark/Light</a>
+          </li>
+        </ul>
+      </nav>
+      
+      
+      <div class="mobile_nav_btn">
+        <i name="iconsYes" class="fa-solid fa-bars mob_nav_icon"></i>
+        <i name="iconsNone" class="fa-solid fa-xmark mob_nav_icon"></i>
+      </div>
+      
+      
+
+      
+      
+    </header>
+
+    <!-- ! ================================================= Header Section Ends===================================================== -->
+
+    <!--* =========================================================Main Tag Starts ====================================================-->
+    
+    <main>
+      <section class="sectionBioData sections">
+        <div class="container grid gridTwoColumn">
+          <div class="sectionHeroData">
+            <p class="heroTopData">This is me</p>
+            <h1 id="rupHeading" class="heroHeadings">Rupayan Dey</h1>
+            <p id="rupPara" class="heroPara">
+              As a passionate 19-year-old student at IIT Madras, I'm on an
+              exciting journey to master the world of Data Science and AI-ML.
+              With a basic foundation in React JS, I'm expanding my horizons by
+              diving into Full Stack Development, Python and the fascinating
+              realm of AI and Machine Learning. I'm dedicated to honing my
+              skills and contributing to the future of technology. Let's connect
+              and explore the possibilities together!
+            </p>
+            <div>
+              <a href="#" class="btn hiremeBtn">HIRE ME</a>
+            </div>
+          </div>
+
+          <div class="sectionHeroImage">
+            <!-- <button class="btn" id="darkLink" >Dark/Light</button> -->
+            <img loading="lazy" class="heroImg"  src="images/clients/bulu-2.jpg" alt="" />
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--! ===================================Main Tag Ends========================================-->
+
+    <!--* ==================================Bio Data Section Starts===============================-->
+
+    <section id="sec_biodata" class="sectionHero sections">
+      <div class="container grid gridTwoColumn">
+        <div class="bioImage">
+          <img loading="lazy" src="images/clients/bulu-2.jpg" alt="" />
+        </div>
+
+        <!-- right side data starts -->
+
+        <div class="bioData">
+          <h2 id="bio_data_head" class="commonHeading">my bio-data</h2>
+          <p id="bio_data_para" >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A deleniti
+            quibusdam temporibus alias eius nulla maxime dolor numquam fugit
+            accusamus.
+          </p>
+          <br />
+          <p id="bio_data_para2" >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ad ea
+            aspernatur autem totam temporibus.
+          </p>
+          <div class="bioDataStats">
+            <div class="bioStats">
+              <h3  id="design_head"  class="skillsHeading">Design</h3>
+              <div id="bioProgressBar_l_d_1" class="bioProgressBar bioProgressBar1">
+                <span id="design_para" >80%</span>
+              </div>
+            </div>
+
+            <div class="bioStats">
+              <h3 id="h_c_head"  class="skillsHeading">HTML and CSS</h3>
+              <div id="bioProgressBar_l_d_2" class="bioProgressBar bioProgressBar2">
+                <span id="h_c_para" >90%</span>
+              </div>
+            </div>
+
+            <div class="bioStats">
+              <h3 id="js_head"  class="skillsHeading">JavaScript</h3>
+              <div id="bioProgressBar_l_d_3" class="bioProgressBar bioProgressBar3">
+                <span id="js_para" >70%</span>
+              </div>
+            </div>
+
+            <div class="bioStats">
+              <h3  id="react_head" class="skillsHeading">React JS</h3>
+              <div id="bioProgressBar_l_d_4" class="bioProgressBar bioProgressBar4">
+                <span id="react_para" >20%</span>
+              </div>
+            </div>
+
+            <div class="bioStats">
+              <h3  id="tail_head"  class="skillsHeading">Tailwind CSS</h3>
+              <div id="bioProgressBar_l_d_5" class="bioProgressBar bioProgressBar5">
+                <span id="tail_para" >30%</span>
+              </div>
+            </div>
+
+            <div class="bioStats">
+              <h3 id="pthonHead" class="skillsHeading">Python</h3>
+              <div id="bioProgressBar_l_d_6"  class="bioProgressBar bioProgressBar6">
+                <span id="pthonPara" >50%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bioDataBtn">
+            <a href="https://docs.google.com/document/d/1CyPE-Zgi4Ilt3XczElN34Y3jzx7sxdFdHxalsKZuUJo/edit?usp=sharing" target="_blank" download class="btn">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--* ==================================Bio Data Section Ends===============================-->
+
+    <!--! ==================================Portfolio Section Starts===============================-->
+
+    <section id="port_section" class="sections portfolioSection" id="sectionPortfolio">
+      <div class="container">
+        <h2 id="port_sec_head"  class="commonHeading">Latest Works</h2>
+        <p id="port_sec_para" >
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+          iusto velit, possimus doloremque quibusdam saepe perspiciatis amet quo
+          explicabo nesciunt!
+        </p>
+      </div>
+
+      <div  class="pBtns ">
+        <div class="btn pBtnAll" id="pBtnAllId0" data-btn-num="0">All</div>
+        <div class="btn pBtn" id="pBtnAllId1" data-btn-num="1">Notes</div>
+        <div class="btn pBtn" id="pBtnAllId2" data-btn-num="2">
+          Calculating Tools
+        </div>
+        <div class="btn pBtn" id="pBtnAllId3" data-btn-num="3">
+          Social Media
+        </div>
+      </div>
+      <div class="gridThreeColumn grid container portfolioImages">
+        <div class="imgOverlay pBtn1">
+          <img loading="lazy"
+            src="images/folio/Screenshot 2023-12-08 182702.png"
+            width="200"
+            height="200"
+            alt=""
+          />
+          <div class="overlay">
+            <a
+              href="https://rupayanxi5567.github.io/to-do-v2/"
+              class="commonHeading"
+              target="_blank"
+              >Project 1</a
+            >
+          </div>
+        </div>
+
+        <div class="imgOverlay pBtn2">
+          <img
+            src="images/folio/Screenshot 2023-12-08 183349.png"
+            height="200"
+            width="200"
+            alt=""
+          />
+          <div class="overlay">
+            <a
+              href="https://rupayanxi5567.github.io/The-ultimate-calculator/"
+              class="commonHeading"
+              target="_blank"
+              >Project 2</a
+            >
+          </div>
+        </div>
+
+        <div class="imgOverlay pBtn2">
+          <img
+            src="images/folio/Screenshot 2023-12-08 183837.png"
+            height="200"
+            width="200"
+            alt=""
+          />
+          <div class="overlay">
+            <a
+              href="https://rupayanxi5567.github.io/my-bmi-app/"
+              class="commonHeading"
+              target="_blank"
+              >Project 3</a
+            >
+          </div>
+        </div>
+
+        <div class="imgOverlay pBtn3">
+          <img
+            src="images/folio/Screenshot 2023-12-08 184224.png"
+            height="200"
+            width="200"
+            alt=""
+          />
+          <div class="overlay">
+            <a
+              href="https://rupayanxi5567.github.io/Friend-Request-Page/"
+              class="commonHeading"
+              target="_blank"
+              >Project 4</a
+            >
+          </div>
+        </div>
+
+        <div class="imgOverlay pBtn3">
+          <img
+            src="images/folio/Screenshot 2023-12-08 184552.png"
+            height="200"
+            width="200"
+            alt=""
+          />
+          <div class="overlay">
+            <a
+              href="https://rupayanxi5567.github.io/my-insta-1/"
+              class="commonHeading"
+              target="_blank"
+              >Project 5</a
+            >
+          </div>
+        </div>
+
+        <div class="imgOverlay pBtn2">
+          <img
+            src="images/folio/Screenshot 2023-12-08 194411.png"
+            height="200"
+            width="200"
+            alt=""
+          />
+          <div class="overlay">
+            <a
+              href="https://rupayanxi5567.github.io/my-age-calculator/"
+              class="commonHeading"
+              target="_blank"
+              >Project 6</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--! ===============================Portfolio Section Ends=============================-->
+
+    <!--* ===============================Counter Section Starts=============================-->
+
+    <section class="sections section_work_data">
+      <div class="container grid gridFourColumn">
+        <div>
+          <h2 class="counterNumber" data-num="2000+" >0+</h2>
+          <p>Project Completed</p>
+        </div>
+
+        <div>
+          <h2 class="counterNumber" data-num="8000+" >0+</h2>
+          <p>Leet Code Solved</p>
+        </div>
+
+        <div>
+          <h2 class="counterNumber" data-num="10000+" >0+</h2>
+          <p>Cups of Coffe</p>
+        </div>
+
+        <div>
+          <h2 class="counterNumber" data-num="3000+" >0+</h2>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+    </section>
+
+    <!--* ===============================Counter Section Starts=============================-->
+
+    <!--! ============================Our Services Section Starts==========================-->
+
+    <section class="sections servicesSection">
+      <div class="container">
+        <h2 id="serviceHead" class="commonHeading">Services Offer</h2>
+        <p id="service_Para_dark_light" >
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          itaque, sequi expedita corrupti excepturi repellat?
+        </p>
+      </div>
+
+      <!-- ? services offers -->
+
+      <div class="container grid gridThreeColumn">
+        <div class="serviceBox">
+          <ion-icon class="serviceIcon" name="desktop-sharp"></ion-icon>
+          <h3 id="servHead1" >Web-Design</h3>
+          <p id="servpara1" >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            deleniti omnis quis voluptates id nam reiciendis iusto tempora, modi
+            culpa?
+          </p>
+        </div>
+
+        <div class="serviceBox">
+          <ion-icon class="serviceIcon" name="logo-web-component"></ion-icon>
+          <h3 id = "servHead2" class="dark_light_services" >Web-Development</h3>
+          <p id = "servPara2" class="dark_light_services" >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            deleniti omnis quis voluptates id nam reiciendis iusto tempora, modi
+            culpa?
+          </p>
+        </div>
+
+        <div class="serviceBox">
+          <ion-icon name="camera-sharp" class="serviceIcon"></ion-icon>
+          <h3 id = "servHead3" class="dark_light_services" >Photography</h3>
+          <p id = "servPara3" class="dark_light_services" >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            deleniti omnis quis voluptates id nam reiciendis iusto tempora, modi
+            culpa?
+          </p>
+        </div>
+
+        <div class="serviceBox">
+          <ion-icon class="serviceIcon" name="phone-portrait-sharp"></ion-icon>
+          <h3 id = "servHead4" class="dark_light_services" >Mobile Development</h3>
+          <p id = "servPara4" class="dark_light_services" >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            deleniti omnis quis voluptates id nam reiciendis iusto tempora, modi
+            culpa?
+          </p>
+        </div>
+
+        <div class="serviceBox">
+          <ion-icon class="serviceIcon" name="apps-sharp"></ion-icon>
+          <h3 id = "servHead5" class="dark_light_services" >App Interface</h3>
+          <p id = "servPara5" class="dark_light_services" >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            deleniti omnis quis voluptates id nam reiciendis iusto tempora, modi
+            culpa?
+          </p>
+        </div>
+
+        <div class="serviceBox">
+          <ion-icon class="serviceIcon" name="albums-sharp"></ion-icon>
+          <h3 id = "servHead6" class="dark_light_services" >UI/UX</h3>
+          <p id = "servPara6" class="dark_light_services" >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            deleniti omnis quis voluptates id nam reiciendis iusto tempora, modi
+            culpa?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--! ============================Our Services Section Ends==========================-->
+
+    <!--* ==========================Our Testimonial Section Starts==========================-->
+
+    <!-- !keep it -->
+    <!-- <div class="swiper-slide">
+
+        <div class="swiper_client_msg">
+            <p  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eaque ducimus non libero deserunt accusamus aliquid veniam asperiores fuga voluptatibus magnam, beatae ullam sint consequuntur fugit repellendus dolorem temporibus iure.</p>
+        </div>
+
+        <div class="swiper_clients_data grid gridTwoColumn" >
+            <figure>
+                <img loading="lazy" src="images/clients/foty.jpg" alt="">
+            </figure>
+            <div class="client_data_details" >
+                <p id="testiPara"  >Ayendrila Sutradhar</p>
+                <p id="testiPara"  >Jobbless Coder</p>
+            </div>
+        </div>
+
+      </div> -->
+    <!-- !keep it -->
+
+    <section class="sections sectionTestimonials">
+      <div class="container">
+        <h2 class="commonHeading" id="happy_client_head" >Happy Clients</h2>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <!-- ! test -->
+
+          <div class="swiper-slide 1">
+            <div id="foty_bg" class="clientSlideContent">
+              <figure>
+                <img loading="lazy" src="images/clients/foty.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Ayendrila Sutradhar</h2>
+                <p id="testiPara">Jobbless Coder</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+
+          <!-- ! test -->
+
+          <div class="swiper-slide 2">
+            <div id="akshit_bg" class="clientSlideContent">
+              <figure>
+                <img loading="lazy" src="images/clients/akshit.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Akshit Mittal</h2>
+                <p id="testiPara">Author on Quora</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide 3">
+            <div id="anuvab_bg" class="clientSlideContent">
+              <figure>
+                <img loading="lazy" src="images/clients/anuvab.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Anubhab Mowar</h2>
+                <p id="testiPara">5 Start Python Coder On Hackerrank</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide 4">
+            <div id="pandey_bg" class="clientSlideContent">
+              <figure id="fig_bg" >
+                <img loading="lazy" src="images/clients/avanesh main.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Avaneesh Pandey</h2>
+                <p id="testiPara">Professional Youtuber and Online Tutor</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide 5">
+            <div id="purnendu_bg" class="clientSlideContent">
+              <figure>
+                <img loading="lazy" src="images/clients/harsh.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Purnendu Shukla</h2>
+                <p id="testiPara">3x AV Blogathon Winner</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide 6">
+            <div id="khan_bg" class="clientSlideContent">
+              <figure>
+                <img loading="lazy" src="images/clients/a.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Shah Rukh Khan</h2>
+                <p id="testiPara">Cyber Security</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide 7">
+            <div id="dipika_bg" class="clientSlideContent">
+              <figure>
+                <img  loading="lazy" src="images/clients/b.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Dipkia Padukon</h2>
+                <p id="testiPara">Professional Actress</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide 8">
+            <div id="c_bg" class="clientSlideContent">
+              <figure>
+                <img loading="lazy" src="images/clients/c.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Nora Fatehi</h2>
+                <p id="testiPara">Amazing Dancer</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide 9">
+            <div id="d_bg" class="clientSlideContent">
+              <figure>
+                <img loading="lazy" src="images/clients/d.jpg" alt="" />
+              </figure>
+              <div class="client_data_details">
+                <h2 id="testiPara">Tiger Shroff</h2>
+                <p id="testiPara">Jobbless Actor</p>
+              </div>
+            </div>
+            <div class="swiper_client_msg">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                eaque ducimus non libero deserunt accusamus aliquid veniam
+                asperiores fuga voluptatibus magnam, beatae ullam sint
+                consequuntur fugit repellendus dolorem temporibus iure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--* ============================Our Testimonial Section Ends==========================-->
+
+    <!--! ============================Our Paralax Freelancing Section Starts==========================-->
+
+    <section class="sections freelancingSections">
+      <div class="overlay">
+        <div class="container">
+          <h2>I Am <span> Available </span> for Freelancing</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui
+            incidunt nihil, nam minima quod tempore dignissimos recusandae ex.
+            Dolor?
+          </p>
+          <a href="contact.html" class="btn">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!--! ============================Our Paralax Freelancing Section Ends==========================-->
+
+    <!--* ============================Our Contact Section Starts==========================-->
+
+    <section class="sections contactSection">
+      <div class="container">
+        <h2 class="commonHeading" id="contactHead" >Contact Us</h2>
+      </div>
+      <div class="section_contact_main section_container">
+        <form   action="https://formspree.io/f/moqogpvk"
+        method="POST">
+          <div class="grid gridTwoColumn">
+            <div>
+              <label for="username">Name</label>
+              <input
+                type="text"
+                name="username"
+                placeholder="Enter Name"
+                id="username"
+                required
+                autocomplete="off"
+              />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Email"
+                id="email"
+                required
+                autocomplete="off"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              required
+              autocomplete="off"
+              placeholder="Enter Subject"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Your Message"
+              cols="30"
+              rows="10"
+              autocomplete="off"
+              required
+            ></textarea>
+          </div>
+
+          <div>
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              class="btn contactMeBtn"
+              value="Send Message"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--* ============================Our Contact Section Ends==========================-->
+
+    <!--! ============================Our Footer Section Starts==========================-->
+
+    <footer class="section_footer sections">
+      <div class="container grid gridFourColumn">
+        <div class="f_about">
+          <h3>About Me</h3>
+          <p>
+            As a passionate 19-year-old student at IIT Madras, I'm on an
+            exciting journey to master the world of Data Science and AI-ML. With
+            a basic foundation in React JS, I'm expanding my horizons by diving
+            into Full Stack Development, Python and the fascinating realm of AI
+            and Machine Learning. I'm dedicated to honing my skills and
+            contributing to the future of technology. Let's connect and explore
+            the possibilities together!
+          </p>
+        </div>
+
+        <!-- ?end -->
+        <div class="f_links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Home</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">About</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Service</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Portfolio</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--! end -->
+
+        <div class="f_services">
+          <h3>Services</h3>
+          <ul>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Figma Design</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Development</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Machine Learning</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Django Project</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span
+              ><a href="#">Freelancing</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- *end -->
+
+        <div class="f_addres">
+          <h3>Have any Question?</h3>
+          <address>
+            <div>
+              <p>
+                <span> <i class="fa-solid fa-location-dot"></i> </span>
+                Haldibari, India
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><i class="fa-solid fa-phone-flip"></i></span>
+                <a href="tel:+917384617952">+91 7384617952</a>
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <a id="myEmail" href="mailto:rupayandeyxi@gmail.com"
+                  >rupayandeyxi@gmail.com</a
+                >
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f_social_icons">
+          <a
+            href="https://www.instagram.com/sugar_high_love_stoned__1377/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rupayan-dey-a43914278/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100092096221696"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+
+        <div class="credits">
+          <p>
+            Copyrigth <span><i class="fa-regular fa-copyright"></i></span> 2024
+            All Rights Reserved | This Website is made by Rupayan Dey under the
+            guidance of ❤️ dear Thapa Technical
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--! ============================Our Footer Section Ends==========================-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
